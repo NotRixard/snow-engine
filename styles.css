@@ -1,0 +1,9 @@
+#snowCanvas {
+    position: absolute; /* Positions the canvas relative to the viewport */
+    top: 0; /* Aligns the canvas with the top of the viewport */
+    left: 0; /* Aligns the canvas with the left of the viewport */
+    width: 100%; /* Makes the canvas span the full width of the viewport */
+    height: 100%; /* Makes the canvas span the full height of the viewport */
+    pointer-events: none; /* Ensures the canvas doesn't block user interaction, like clicking or hovering */
+    z-index: -1; /* Places the canvas behind all other elements, changing this to 1 will overlay it over all elements */
+}
